@@ -5,7 +5,7 @@
 # @Prescription: 用布尔索引过滤
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv', index_col='movie_title')
+movie = pd.read_csv('../data/movie.csv', index_col='movie_title')
 print('创建第一个布尔条件：')
 criteria1 = movie.imdb_score > 8
 criteria2 = movie.content_rating == 'PG-13'

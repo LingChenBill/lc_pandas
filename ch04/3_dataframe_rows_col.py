@@ -6,7 +6,7 @@
 import pandas as pd
 
 print('选取前3行与前4列：')
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 print(college.iloc[:3, :4])
 
 print('用loc来实现选取前3行与前4列：')

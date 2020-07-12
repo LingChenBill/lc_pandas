@@ -5,7 +5,7 @@
 # @Prescription: 用sorted_values来模拟nlargest
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 movie2 = movie[['movie_title', 'imdb_score', 'budget']]
 print('查找100个最大列中，预算列最小的5列：')
 movie_smallest_largest = movie2.nlargest(100, 'imdb_score').nsmallest(5, 'budget')

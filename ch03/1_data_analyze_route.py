@@ -9,7 +9,7 @@ from IPython.display import display
 pd.options.display.max_columns = 50
 
 # 读取数据
-college = pd.read_csv('data/college.csv')
+college = pd.read_csv('../data/college.csv')
 print(college.head())
 
 # 数据的行数与列数
@@ -34,6 +34,6 @@ with pd.option_context('display.max_rows', 5):
                              percentiles=[.01, .05, .10, .25, .5, .75, .9, .95, .99]).T)
 
 # 展示一个数据字典：数据字典的主要作用是解释列名的意义
-college_dd = pd.read_csv('data/college_data_dictionary.csv')
+college_dd = pd.read_csv('../data/college_data_dictionary.csv')
 with pd.option_context('display.max_rows', 8):
     display(college_dd)

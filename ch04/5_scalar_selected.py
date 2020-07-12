@@ -6,7 +6,7 @@
 import pandas as pd
 import time
 
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 
 print('通过将行标签赋值于一个变量，用loc选取：')
 cn = 'Texas A & M University-College Station'

@@ -5,7 +5,7 @@
 # @Prescription: 串联DataFrame方法
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 
 # 使用isnull()将每个值转变为布尔值
 print(movie.isnull().head())

@@ -5,7 +5,7 @@
 # @Prescription: 使用索引
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 print(movie.shape)
 
 # set_index()给行索引命名
@@ -13,7 +13,7 @@ movie2 = movie.set_index('movie_title')
 print(movie2)
 
 # 通过index_col参数命名
-movie3 = pd.read_csv('data/movie.csv', index_col='movie_title')
+movie3 = pd.read_csv('../data/movie.csv', index_col='movie_title')
 print(movie3)
 
 # 复原索引

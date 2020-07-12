@@ -7,7 +7,7 @@
 import pandas as pd
 
 print('从行索引10到20，每隔一个取一行：')
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 print(college[10:20:2])
 
 print('Series也可以同样切片：')

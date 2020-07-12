@@ -5,7 +5,7 @@
 # @Prescription:
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 # 选择director_name这列
 print(movie['director_name'])
 

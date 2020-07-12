@@ -6,7 +6,7 @@
 # 先排序再字母切片
 import pandas as pd
 
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 # print(college.loc['Sp':'Su'])
 
 print('对college进行排序：')

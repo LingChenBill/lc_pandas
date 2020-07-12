@@ -5,7 +5,7 @@
 # @Prescription: 在最大中选择最小
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 movie2 = movie[['movie_title', 'imdb_score', 'budget']]
 print(movie2.head())
 

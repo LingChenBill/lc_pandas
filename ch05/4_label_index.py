@@ -6,7 +6,7 @@
 import pandas as pd
 import time
 
-college = pd.read_csv('data/college.csv')
+college = pd.read_csv('../data/college.csv')
 print('用布尔索引选取所有的得克萨斯达的学校：')
 print(college[college['STABBR'] == 'TX'].head())
 

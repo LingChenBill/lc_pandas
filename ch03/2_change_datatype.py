@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 # 选取5列
-college = pd.read_csv('data/college.csv')
+college = pd.read_csv('../data/college.csv')
 different_cols = ['RELAFFIL', 'SATMTMID', 'CURROPER', 'INSTNM', 'STABBR']
 col2 = college.loc[:, different_cols]
 print(col2.head())

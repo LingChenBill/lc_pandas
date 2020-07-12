@@ -5,7 +5,7 @@
 # @Prescription: 串联Series方法
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 actor_1_fb_likes = movie['actor_1_facebook_likes']
 director = movie['director_name']
 

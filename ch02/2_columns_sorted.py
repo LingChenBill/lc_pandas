@@ -5,7 +5,7 @@
 # @Prescription: 对列名排序
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 print(movie.head())
 
 # 打印列索引

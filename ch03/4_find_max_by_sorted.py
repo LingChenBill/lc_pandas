@@ -5,7 +5,7 @@
 # @Prescription: 通过排序选取每组中的最大值
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 movie2 = movie[['movie_title', 'title_year', 'imdb_score']]
 print('movie2按照title_year降序排列: ')
 print(movie2.sort_values('title_year', ascending=False).head())

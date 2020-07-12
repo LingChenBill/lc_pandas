@@ -5,7 +5,7 @@
 # @Prescription: 创建、删除列
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 movie['has_seen'] = 0
 print(movie.columns)
 

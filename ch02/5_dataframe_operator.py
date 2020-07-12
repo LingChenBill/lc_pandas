@@ -5,7 +5,7 @@
 # @Prescription: 在DataFrame上使用运算符
 import pandas as pd
 
-college = pd.read_csv('data/college.csv')
+college = pd.read_csv('../data/college.csv')
 
 # college数据集的值既有数值也有对象，整数不能与字符串相加
 # TypeError: can only concatenate str (not "int") to str

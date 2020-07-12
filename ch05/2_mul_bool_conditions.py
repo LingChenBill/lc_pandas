@@ -6,7 +6,7 @@
 # 在 pandas中位运算符（&，|， ~）的优先级高于比较运算符。
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv', index_col='movie_title')
+movie = pd.read_csv('../data/movie.csv', index_col='movie_title')
 print(movie.head())
 
 print('构建多个布尔条件：')

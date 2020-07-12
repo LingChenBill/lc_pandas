@@ -7,7 +7,7 @@ import pandas as pd
 import time
 
 print('检查 STABBR 行索引是否有序：')
-college = pd.read_csv('data/college.csv')
+college = pd.read_csv('../data/college.csv')
 college2 = college.set_index('STABBR')
 print(college2.index.is_monotonic)
 

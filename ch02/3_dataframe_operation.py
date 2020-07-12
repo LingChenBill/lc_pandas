@@ -6,7 +6,7 @@
 import pandas as pd
 
 pd.options.display.max_rows = 8
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 # 打印行数和列数
 print(movie.shape)
 

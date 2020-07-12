@@ -6,7 +6,7 @@
 import pandas as pd
 
 print('用索引方法get_loc，找到指定列的整数位置：')
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 col_start = college.columns.get_loc('UGDS_WHITE')
 col_stop = college.columns.get_loc('UGDS_UNKN') + 1
 print((col_start, col_stop))

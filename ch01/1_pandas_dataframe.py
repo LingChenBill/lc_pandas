@@ -10,7 +10,7 @@ pd.set_option('max_columns', 8, 'max_rows', 10)
 
 # 用read_csv()方法读取csv文件
 # head()方法可以默认读取文件前5行，head(n)读取前n行
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 # print(movie.head())
 # print(movie.head(2))
 

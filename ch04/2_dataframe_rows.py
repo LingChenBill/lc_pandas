@@ -6,7 +6,7 @@
 import pandas as pd
 
 print('读取college的数据集：')
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 print(college.head())
 
 print('选取第61行：')

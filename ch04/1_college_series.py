@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 print('读取college数据集，查看CITY的前5行：')
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 city = college['CITY']
 print(city.head())
 

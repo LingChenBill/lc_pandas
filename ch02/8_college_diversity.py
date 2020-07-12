@@ -5,7 +5,7 @@
 # @Prescription: 确定大学校园多样性
 import pandas as pd
 
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 college_ugds = college.filter(like='UGDS_')
 print(college_ugds.head())
 

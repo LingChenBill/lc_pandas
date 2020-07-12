@@ -5,7 +5,7 @@
 # @Prescription: 选取多个DataFrame列
 import pandas as pd
 
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 
 # 用列表选取多个列
 movie_actor_director = movie[['actor_1_name', 'actor_2_name',

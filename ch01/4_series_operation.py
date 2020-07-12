@@ -6,7 +6,7 @@
 import pandas as pd
 
 pd.set_option('max_rows', 8)
-movie = pd.read_csv('data/movie.csv')
+movie = pd.read_csv('../data/movie.csv')
 imdb_score = movie['imdb_score']
 print(imdb_score)
 

@@ -13,7 +13,7 @@ print(np.nan == np.nan)
 # Python的None对象是等于自身的
 print(None == None)
 
-college = pd.read_csv('data/college.csv', index_col='INSTNM')
+college = pd.read_csv('../data/college.csv', index_col='INSTNM')
 college_ugds = college.filter(like='UGDS_')
 print(college_ugds.head())
 

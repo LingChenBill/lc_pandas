@@ -7,7 +7,7 @@ import pandas as pd
 
 print('读取movie，设定行索引：')
 pd.options.display.max_columns = 6
-movie = pd.read_csv('data/movie.csv', index_col='movie_title')
+movie = pd.read_csv('../data/movie.csv', index_col='movie_title')
 print(movie.head())
 
 print('判断电影时长是否超过2个小时：')
