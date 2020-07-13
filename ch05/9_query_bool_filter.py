@@ -11,8 +11,8 @@ select_columns = ['DEPARTMENT', 'GENDER', 'BASE_SALARY']
 
 print('创建查询字符串，并执行query方法：')
 qs = "DEPARTMENT in @depts " \
-    "and GENDER == 'Female' " \
-    "and 80000 <= BASE_SALARY <= 120000"
+     "and GENDER == 'Female' " \
+     "and 80000 <= BASE_SALARY <= 120000"
 
 emp_filtered = employee.query(qs)
 print(emp_filtered[select_columns].head())
